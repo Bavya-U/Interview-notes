@@ -410,3 +410,11 @@ Async and await are used to handle asynchronous operations more easily than Prom
             let fruits = ['banana', 'orange'];
             fruits.unshift('apple');
             console.log(fruits); // ['apple', 'banana', 'orange']
+
+ 20)  What is delete in javascript?
+      The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically.          
+
+ 21)  What are the tools used for api testing?
+         *Soapui pro
+         *Postman
+         *Alertsite api monitoring     

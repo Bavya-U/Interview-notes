@@ -64,5 +64,59 @@
          
    **px** = fixed size.
    **em** = flexible size, based on the parent element's font size.                                
-           
+    
+    
+5)  What is a CSS selector?
+  It is a string that identifies the elements to which a particular declaration apply. It is also referred as a link between     the HTML document and the style sheet. It is equivalent of HTML elements. There are several different types of selectors in CSS: -
+
+        *CSS Element Selector
+        *CSS Id Selector
+        *CSS Class Selector
+        *CSS Universal Selector
+        *CSS Group Selector
+
+1) CSS Element Selector
+The element selector selects the HTML element by name.
+Eg : <style>  
+p{  
+    text-align: center;  
+    color: blue;  
+}   
+</style> 
+
+2) CSS Id Selector
+The id selector selects the id attribute of an HTML element to select a specific element. An id is always unique within the page so it is chosen to select a single, unique element.
+Eg : <style>  
+#para1 {  
+    text-align: center;  
+    color: blue;  
+}  
+</style> 
+
+3) CSS Class Selector
+The class selector selects HTML elements with a specific class attribute. It is used with a period character . (full stop symbol) followed by the class name.
+Eg : <style>  
+.center {  
+    text-align: center;  
+    color: blue;  
+}  
+</style> 
+
+4) CSS Universal Selector
+The universal selector is used as a wildcard character. It selects all the elements on the pages.
+Eg : <style>  
+* {  
+   color: green;  
+   font-size: 20px;  
+}   
+</style>
+
+5) CSS Group Selector
+The grouping selector is used to select all the elements with the same style definitions.
+Eg : <style>  
+h1, h2, p {  
+    text-align: center;  
+    color: blue;  
+}  
+</style>         
        
